@@ -8,9 +8,12 @@ However, In xslt file, I defined a template with the below match name.
 ```<xsl:template match="Invoice/InvoiceLine">```
 
 Then invoked it for all invoice lines I have.
-```<xsl:for-each select="Invoice/InvoiceLine">
-	<xsl:apply-templates select="."/>
-</xsl:for-each>```
+	
+```
+	<xsl:for-each select="Invoice/InvoiceLine">
+		<xsl:apply-templates select="."/>
+	</xsl:for-each>
+```
 
 
 This defined template and its invoke are specified in comments of Part5-DisplayingInvoiceLinesUsingTemplate.xslt for clarity.
