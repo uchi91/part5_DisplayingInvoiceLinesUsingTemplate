@@ -3,7 +3,6 @@
 <?xml-stylesheet type="text/xsl" href="results.xsl"?>
 -->
 <Invoice>
-	<!--below is newly added part for lecture 4-->
 	<AccountingSupplierParty>
 		<Party>
 			<Name>Safedrive Logistics</Name>
@@ -44,7 +43,6 @@
 			</PartyIdentification>
 		</Party>
 	</AccountingCustomerParty>
-	<!--above is newly added part for lecture 4-->
 	<InvoiceLine>
 		<ItemNumber>1</ItemNumber>
 		<Product>Apple</Product>
